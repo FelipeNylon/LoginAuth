@@ -26,6 +26,7 @@ SECRET_KEY = '&7qy0+8%s^zfg9d*kx#9cbtzkb$2u+(n)_c^+@!b-q0(hmtz9#'
 DEBUG = True
 
 ALLOWED_HOSTS = []
+CORS_ORIGIN_ALLOW_ALL = True
 
 
 # Application definition
@@ -40,6 +41,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'knox',
     'accounts',
+    'corsheaders',
 ]
 
 MIDDLEWARE = [
