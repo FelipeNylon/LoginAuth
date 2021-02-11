@@ -3,7 +3,9 @@
 Uma Simples api rest com login, logout e signup, segura e prática feita com Knox e autenticação por Token
 
 # Instalação
-Após baixar o arquivo .zip ou clonar, abra o com cmd e rode: **pip install** -r **requirements**.**txt**, depois de instalar todas as depedências rode: **py manage.py runserver** 
+Após baixar o arquivo .zip ou clonar, abra o com cmd e rode: **pip install** -r **requirements**.**txt**
+rode também: pip install djangorestframework
+, depois de instalar todas as depedências rode: **py manage.py runserver** 
 
 # Register
 
